@@ -13,9 +13,14 @@ const information = document.querySelector(".information");
 const value = document.querySelector("#value");
 const playAgain = document.querySelector(".btn-play-again");
 
+if (!localStorage.getItem('score')) {
+  localStorage.setItem('score', 0);
+}
+
 let playerChoice;
 let computerChoice;
 let score = localStorage.getItem("score");
+value.innerText = score;
 
 
 suwit.forEach((suwit) => {
@@ -30,7 +35,7 @@ suwit.forEach((suwit) => {
     removeClass();
     updateUi(playerChoice, computerChoice, score, match);
     localStorage.setItem("score", score);
-    value.innerText = score;
+    
   });
 });
 
