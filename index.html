@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="container" role="application">
+      <div class="scoreboard">
+        <img src="images/logo.svg" alt="logo" />
+        <div class="score">
+          <p>SCORE</p>
+          <h1 id="value">0</h1>
+        </div>
+      </div>
+
+      <div class="game">
+        <div class="paper suwit position-paper" data-name="paper"></div>
+        <div class="scissors suwit position-scissors" data-name="scissors"></div>
+        <div class="rock suwit position-rock" data-name="rock"></div>
+      </div>
+
+      <div class="container-result">
+        <div class="player"></div>
+        <div class="result">
+          <h1>YOU <span class="information"></span></h1>
+          <div class="btn-play-again">PLAY AGAIN</div>
+        </div>
+        <div class="computer"></div>
+      </div>
+    </div>
+
+    <!-- pop-up-rules start -->
+    <div class="btn-rules">RULES</div>
+    <div class="pop-up">
+      <div class="pop">
+        <img class="close-pop-up" src="images/icon-close.svg" alt="close" />
+        <img class="img-rules" src="images/image-rules.svg" alt="rules" />
+      </div>
+    </div>
+    <!-- pop-up-rules end -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
