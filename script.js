@@ -16,7 +16,7 @@ const playAgain = document.querySelector(".btn-play-again");
 let playerChoice;
 let computerChoice;
 let score = localStorage.getItem("score");
-value.innerText = score;
+
 
 suwit.forEach((suwit) => {
   suwit.addEventListener("click", function (e) {
@@ -30,6 +30,7 @@ suwit.forEach((suwit) => {
     removeClass();
     updateUi(playerChoice, computerChoice, score, match);
     localStorage.setItem("score", score);
+    value.innerText = score;
   });
 });
 
