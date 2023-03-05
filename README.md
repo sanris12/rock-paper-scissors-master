@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sanris12/rock-paper-scissors-master](https://github.com/sanris12/rock-paper-scissors-master)
+- Live Site URL: [https://sanris12.github.io/rock-paper-scissors-master](https://sanris12.github.io/rock-paper-scissors-master)
 
 ## My process
 
